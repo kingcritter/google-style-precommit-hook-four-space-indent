@@ -1,3 +1,5 @@
+Forked from [the original](https://github.com/maltzj/google-style-precommit-hook) because we needed to change the options. 
+
 A handy [pre-commit](http://pre-commit.com/) hook which will run Google's java
 code style formatter for you on your code!
 
@@ -5,8 +7,8 @@ Usage:
 
 ```
 repos:
-- repo: https://github.com/maltzj/google-style-precommit-hook
-  sha: b7e9e7fcba4a5aea463e72fe9964c14877bd8130
+- repo: https://github.com/kingcritter/google-style-precommit-hook-four-space-indent
+  rev: 7ac03e6cf75cdd9a1fba22989c59de68b01fe6b8
     hooks:
       - id: google-style-java
 ```
